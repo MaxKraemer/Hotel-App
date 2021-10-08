@@ -12,7 +12,7 @@ export const bookings: booking [] = [
       },
       {
         id: 2,
-        name: "Michael meier",
+        name: "Michael Meier",
         roomnumber: 210,
         startDate: new Date(),
         endDate: new Date("2021-1-29")
@@ -27,7 +27,7 @@ export const bookings: booking [] = [
     
       },{
         id: 1,
-        name: "pierre garson",
+        name: "Pierre Garson",
         roomnumber: 404,
         startDate: new Date(),
         endDate: new Date("2021-02-06")
