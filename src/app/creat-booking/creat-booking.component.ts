@@ -16,8 +16,8 @@ export class CreatBookingComponent implements OnInit {
   booking: booking = {
 
     id: 100,
-    name: "your name",
-    roomnumber: 100,
+    name: "Your Name",
+    roomnumber: 201,
     startDate: new Date(),
     endDate: new Date()
 
