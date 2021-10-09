@@ -1,16 +1,44 @@
-<form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<div class="card">
+    <div class="card-header">
+        <h5>Create New Booking</h5>
     </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+    <div class="card-body">
+        <form>
+            <div class="row mb-2">
+                <div class="col">
+                    <label class="form-label">ID</label>
+                    <input class="form-control">
+                </div>
+        
+                <div class="col">
+                    <label class="form-label">Roomnumber</label>
+                    <input class="form-control">
+                </div>
+                
+            </div>
+            <div class="row mb-2">
+                <div class="col">
+                    <label class="form-label">Guestname</label>
+                    <input class="form-control">
+                </div>
+              
+            </div>
+        
+            <div class="row mb-2">
+                <div class="col">
+                    <label class="form-label">Start Date</label>
+                    <input class="form-control">
+                </div>
+                <div class="col">
+                    <label class="form-label">End Date</label>
+                    <input class="form-control">
+                </div>
+        
+            </div>
+          </form>
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="card-footer">
+        <button class="btn btn-primary">submit</button>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+</div>
+
